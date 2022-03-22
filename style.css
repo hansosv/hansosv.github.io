@@ -4,7 +4,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48em;
+}
+
 h1 {
     text-align: center;
-    margin-top: 25%;
+}
+
+.item {
+    flex: 1;
+}
+
+.item-top {
+    align-self: flex-start;
+}
+
+.item-bottom {
+    align-self: flex-end;
 }
